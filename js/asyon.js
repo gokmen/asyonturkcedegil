@@ -12,9 +12,9 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'implement': ['uyarlama', 'gerçekleştirme'],
                  'konfigur':  ['yapılandırma', 'ayarlama'],
                  'replik':    ['ikileme', 'çoğaltma', 'kopyalama'],
-              // 'rejener':   ['yenilenme'],
+                 'rejener':   ['yenilenme'],
                  'rot':       ['yer değiştirme', 'dönüştürme', 'çevirme'],
-		             'dokumant':  ['belgelendirme', 'yazıya dökme'],
+                 'dokumant':  ['belgelendirme', 'yazıya dökme'],
                  'provok':    ['kışkırtma']};
 
 $(document).ready(function() {
