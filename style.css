@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Alegreya;
+  src: url(fonts/Alegreya-Regular.otf);
+}
+a {
+  color: #CC0066;
+  text-decoration:none;
+}
+#content {
+  font-family: Alegreya, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30em;
+  height: 18em;
+  margin-top: -12em;
+  margin-left: -15em;
+  text-align: center;
+  color: #CC0066;
+  font-size: 25px;
+}
+#details, #address {
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: left;
+  color: #555;
+  font-size: 18px;
+  border-top: 1px dotted #AAA;
+  width: 640px;
+  clear:left;
+  height:64px;
+}
+
+#address {
+  margin-top: 30px;
+  padding-top:10px;
+  background: url(images/info.png) 0px 16px;
+  background-repeat:no-repeat;
+  padding-left:50px;
+  width:590px;
+  height:60px;
+  border-bottom: 1px dotted #AAA;
+}
+
+#message {
+  width: 160px;
+  float: left;
+  border-right: 1px dotted #AAA; 
+
+}
+#words {
+  margin-top: -20px;
+  float: left;
+  padding:20px;
+  padding-top:28px;
+  width:420px;
+}
+
+#words span {
+  float:left;
+  padding:9px;
+  font-size:22px;
+  background-color:#FFD393;
+  margin:5px;
+  border-radius:5px;
+
+}
+
+div.badword {
+  padding-top: 45px;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+div.arrow-left {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+div.arrow-left:hover,
+div.arrow-right:hover {
+  cursor:pointer;
+}
+
+div.arrow-right {
+  position: absolute;
+  top: 30px;
+  right: 60px;
+}
+span.bade {
+  color: #FF9900;
+}
+span.mark {
+  color: #CC0066;
+}
