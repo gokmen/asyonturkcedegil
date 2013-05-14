@@ -15,6 +15,7 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'rejener':   ['yenilenme'],
                  'rot':       ['yer değiştirme', 'dönüştürme', 'çevirme'],
                  'dokumant':  ['belgelendirme', 'yazıya dökme'],
+                 'migr':      ['göç'],
                  'provok':    ['kışkırtma']};
 
 $(document).ready(function() {
