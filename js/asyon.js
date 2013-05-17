@@ -19,7 +19,9 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'rot':       ['yer değiştirme', 'dönüştürme', 'çevirme'],
                  'dokumant':  ['belgelendirme', 'yazıya dökme'],
                  'migr':      ['göç'],
-                 'provok':    ['kışkırtma']};
+                 'provok':    ['kışkırtma'],
+                 'transit':   ['geçiş'] // cc: fatihacet
+                 };
 
 $(document).ready(function() {
   var subdomain = $(location).attr('href').match('(?:http:\/\/)?(?:([^.]+)\.)?asyonturkcedegil\.com/');
