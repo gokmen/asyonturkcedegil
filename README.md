@@ -3,7 +3,7 @@ asyonturkcedegil - TR
 
 \*.asyonturkcedegil.com için kod deposu, `js/asyon.js` dosyası
 içindeki `badwords` değişkenini güncelleyerek değişiklik 
-talebinde bulunabilirsiniz. 
+isteminde bulunabilirsiniz. 
 
 asyonturkcedegil - EN
 ---------------------
