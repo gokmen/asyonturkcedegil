@@ -20,6 +20,7 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'spekul':    ['vurgun','saptırma'],
                  'rot':       ['yer değiştirme', 'dönüştürme', 'çevirme'],
                  'dokumant':  ['belgelendirme', 'yazıya dökme'],
+                 'aglutin':   ['kümeleşim'],
                  'migr':      ['göç'],
                  'adapt':     ['uyum', 'uyarlama'],
                  'provok':    ['kışkırtma']};
