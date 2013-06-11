@@ -20,6 +20,8 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'rot':       ['yer değiştirme', 'dönüştürme', 'çevirme'],
                  'dokumant':  ['belgelendirme', 'yazıya dökme'],
                  'migr':      ['göç'],
+                 'adapt':     ['uyum', 'uyarlama'],
+                 'kalibr':    ['ölçümleme', 'ölçülüleme'],
                  'provok':    ['kışkırtma']};
 
 $(document).ready(function() {
