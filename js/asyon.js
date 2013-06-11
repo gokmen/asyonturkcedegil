@@ -21,7 +21,6 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'dokumant':  ['belgelendirme', 'yazıya dökme'],
                  'migr':      ['göç'],
                  'adapt':     ['uyum', 'uyarlama'],
-                 'kalibr':    ['ölçümleme', 'ölçülüleme'],
                  'provok':    ['kışkırtma']};
 
 $(document).ready(function() {
