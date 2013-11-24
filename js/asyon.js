@@ -25,14 +25,14 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'provok':    ['kışkırtma']};
 
 $(document).ready(function() {
-  var subdomain = $(location).attr('href').match('(?:http:\/\/)?(?:([^.]+)\.)?asyonturkcedegil\.com/');
+  var subdomain = $(location).attr('href').match(/^(?:http:\/\/)?(?:([^.]+)\.)?/);
   if (subdomain.length > 1) {
     subdomain = subdomain[1];
-    $.each(Object.keys(badwords), function(_index, value) { 
+    $.each(Object.keys(badwords), function(_index, value) {
       if (value == subdomain) index = _index;
     });
   }
-  
+
   update();
 
   $(".arrow-left").click(function() {
@@ -41,7 +41,7 @@ $(document).ready(function() {
       update();
     });
   });
-  
+
   $(".arrow-right").click(function() {
     index++;
     $('#content').fadeOut('fast', function() {
@@ -51,14 +51,14 @@ $(document).ready(function() {
 });
 
 function update() {
-  (index < 0) ? index = Object.keys(badwords).length - 1 : index = index;
-  (index > Object.keys(badwords).length - 1) ? index = 0 : index = index;
+  if (index < 0) index = Object.keys(badwords).length - 1;
+  if (index > Object.keys(badwords).length - 1) index = 0;
   var badword = Object.keys(badwords)[index];
   $('.bad').text(badword);
   $('#badlink').attr('href', 'http://'+badword+'.asyonturkcedegil.com');
   $('#words').text('');
   document.title = badword + 'asyon Türkçe değil.';
-  jQuery.each(badwords[Object.keys(badwords)[index]], function() {
+  jQuery.each(badwords[badword], function() {
     $('#words').append($('<span></span>').text(this));
   });
   $('#content').fadeIn('fast', function(){
@@ -66,4 +66,4 @@ function update() {
       $('#badlink').effect('highlight');
     });
   });
-};
+}
