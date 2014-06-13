@@ -25,7 +25,8 @@ var badwords = { 'aplik':     ['uygulama', 'yazılım'],
                  'dokumant':  ['belgelendirme', 'yazıya dökme'],
                  'migr':      ['göç'],
                  'adapt':     ['uyum', 'uyarlama'],
-                 'provok':    ['kışkırtma']};
+                 'provok':    ['kışkırtma'],
+                 'valid':     ['onaylama', 'doğrulama', 'geçerleme']};
 
 $(document).ready(function() {
   var subdomain = $(location).attr('href').match(/^(?:http:\/\/)?(?:([^.]+)\.)?/);
