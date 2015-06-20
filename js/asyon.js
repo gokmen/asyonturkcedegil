@@ -10,13 +10,16 @@ var badwords = { 'adapt':        ['uyum', 'uyarlama'],
                  'enform':       ['bilgi', 'malûmat'],
                  'form':         ['biçimlenme', 'yetişim'],
                  'halusin':      ['sanrı'],
+                 'idealiz':      ['ülküleştirme'],
                  'implement':    ['uyarlama', 'gerçekleştirme'],
+                 'izol':         ['yalıtım'],
                  'jener':        ['nesil'],
                  'kalifik':      ['beceri', 'yetenek', 'tecrübe', 'niteliklilik'],
                  'komunik':      ['iletişim'],
                  'konfigur':     ['yapılandırma', 'ayarlama'],
                  'konfirm':      ['doğrulama', 'onaylama', 'geçerleme'],
                  'konsantr':     ['derişim', 'dikkat toplaşımı', 'yoğunlaşma'],
+                 'koordin':      ['eş güdüm'],
                  'lok':          ['konum', 'mevki', 'yer', 'mahal'],
                  'lokaliz':      ['yerelleştirme', 'kuruluş yeri seçimi'],
                  'migr':         ['göç'],
@@ -39,7 +42,9 @@ var badwords = { 'adapt':        ['uyum', 'uyarlama'],
                  'telekomünik':  ['uziletişim', 'uzakiletişim'],
                  'transform':    ['dönüşüm'],
                  'valid':        ['onaylama', 'doğrulama', 'geçerleme'],
-                 'verifik':      ['doğrulama', 'kanıtlama', 'tetkik']
+                 'valü':         ['değerleme'],
+                 'verifik':      ['doğrulama', 'kanıtlama', 'tetkik'],
+                 'vibr':         ['titreşim']
 };
 
 $(document).ready(function() {
