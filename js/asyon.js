@@ -24,6 +24,7 @@ var badwords = { 'adapt':        ['uyum', 'uyarlama'],
                  'lok':          ['konum', 'mevki', 'yer', 'mahal'],
                  'lokaliz':      ['yerelleştirme', 'kuruluş yeri seçimi'],
                  'migr':         ['göç'],
+                 'modifik'       ['değişke', 'değişim']
                  'oblig':        ['yükümlülük', 'zorunluluk', 'şart', 'borç'],
                  'oksid':        ['yükseltgenme'],
                  'oper':         ['ameliyat', 'müdahale', 'harekât'],
